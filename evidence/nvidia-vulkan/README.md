@@ -1,6 +1,6 @@
 # NVIDIA Vulkan startup error evidence
 
-Screenshot supplied by the reporter for a startup failure on NVIDIA. The application fails to create its window and exits with code 24.
+Screenshot of a startup failure on NVIDIA. The application fails to create its window and exits with code 24.
 
 ![Vulkan startup error dialog and application log](nvidia-vulkan-error.png)
 
@@ -19,6 +19,6 @@ no Vulkan)
 — the game exited (code 24) —
 ```
 
-NVIDIA is identified by the reporter; the screenshot does not show the GPU model, driver version, or tested build. The messages document a Vulkan initialization failure but do not establish that the hardware is too old or identify the root cause.
+The screenshot does not show the GPU model, driver version, or tested build. The messages document a Vulkan initialization failure but do not establish that the hardware is too old or identify the root cause.
 
 Related context: [upstream PR #143](https://github.com/Ryu7w7/OCTR-NitroFueled-PC/pull/143). This evidence is stored on a separate fork branch.
